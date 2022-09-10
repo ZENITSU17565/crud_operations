@@ -1,7 +1,11 @@
 {
   "scripts": {
     "start": "node index.js"
+<<<<<<< HEAD
   },
+=======
+  }
+>>>>>>> 93aba10e321b1e96b10c8ce791e8bda92e1d3050
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
