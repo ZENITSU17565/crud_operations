@@ -1,4 +1,4 @@
-const api_url = "https://crud-mongo-js-app.herokuapp.com/user"
+const api_url = "https://crud-mongo-js-app.herokuapp.com//user"
 // const api_url = "http://localhost:8080/user"
 
 function loadData(records = []) {
