@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-const api_url = "https://crud-mongo-js-app.herokuapp.com/user/"
-// const api_url = "http://localhost:8080/user"
-
-=======
 const api_url = "https://crud-mongo-js-app.herokuapp.com/"
 // const api_url = "http://localhost:8080/user"
->>>>>>> 93aba10e321b1e96b10c8ce791e8bda92e1d3050
+
 function loadData(records = []) {
     var table_data = "";
     for (let i = 0; i < records.length; i++) {
