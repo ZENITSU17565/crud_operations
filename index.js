@@ -19,10 +19,10 @@ app.get("/user", async (req, res) => {
 	res.send(data);
 });
 
-app.get("/", async (req, res) => {
-	let data = await User.find().sort({_id:-1});
-	res.send(data);
-});
+// app.get("/", async (req, res) => {
+// 	let data = await User.find().sort({_id:-1});
+// 	res.send(data);
+// });
 
 app.get("/user/:id", async (req, res) => {
 	console.log(req.params.id);
