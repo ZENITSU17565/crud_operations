@@ -10,7 +10,9 @@ var cors = require('cors');
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("Hello Friends..");
+// 	res.send("Hello Friends..");
+	let data = await User.find().sort({_id:-1});
+	res.send(data);
 });
 
 
