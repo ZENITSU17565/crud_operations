@@ -9,14 +9,17 @@ app.use(express.json());
 var cors = require('cors');
 app.use(cors());
 
-app.get("/", (req, res) => {
+// app.get("/", (req, res) => {
 // 	res.send("Hello Friends..");
-	let data = await User.find().sort({_id:-1});
-	res.send(data);
-});
+// });
 
 
-app.get("/user", async (req, res) => {
+// app.get("/user", async (req, res) => {
+// 	let data = await User.find().sort({_id:-1});
+// 	res.send(data);
+// });
+
+app.get("/", async (req, res) => {
 	let data = await User.find().sort({_id:-1});
 	res.send(data);
 });
